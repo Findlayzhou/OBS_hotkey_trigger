@@ -1,0 +1,28 @@
+# 打开OBS - 工具 - WebSocket服务器设置 - 显示连接信息
+# 复制填入下述字段中
+obs:
+  address: "localhost"   # OBS地址，不支持IPv6，一般情况默认localhost即可
+  port: "4455"           # OBS WebSocket端口，默认4455
+  password: "w21iEcHv8EwtKBPL"  # OBS密码（无密码留空）
+
+# 遮罩配置列表（可扩展多个遮罩）
+masks:
+  - name: "mask"   # 随便起
+    source: "mask1"  # 必须与 OBS【源】 的名称相同，区分大小写，尽量使用英文
+                   # 打开 OBS Studio（建议 28.0+
+                   # 选择一个场景
+                   # 点击“来源”面板的 + 按钮，选择 图像源
+                   # 输入源名称，此处的名称即为 source 的名称
+
+    scene: ""      # 留空，自动查找包含 source 的场景
+    hotkey:        # 组合热键，此处示例为 ctrl + alt + M
+      key: "M"     
+      modifiers: ["ctrl","alt"] # 辅助键，仅支持"ctrl/alt/shift/win"，可自由组合
+
+  # 空白模板，可以自行复制扩展多个，注意前面的空格对齐
+  # - name: ""
+  #   source: ""  
+  #   scene: ""           
+  #   hotkey:
+  #     key: "Q"
+  #     modifiers: ["ctrl"]
