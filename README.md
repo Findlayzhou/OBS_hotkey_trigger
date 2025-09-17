@@ -1,7 +1,10 @@
 # OBS 热键触发工具
 
 这是一个基于 Go 的工具，用于通过热键切换 OBS Studio 中场景项目的可见性（例如图像遮罩）。该工具通过 WebSocket 连接到 OBS Studio，允许使用自定义键盘快捷键（例如 `Ctrl+M`）控制场景项目的显示/隐藏。
-单纯使用请下载可执行版本，即下即用:https://github.com/Findlayzhou/OBS_hotkey_trigger/releases/tag/v1.0.0
+- **普通使用请下载可执行版本，无需下载任何依赖项**：
+- https://github.com/Findlayzhou/OBS_hotkey_trigger/releases/tag/v1.0.0
+- **查看效果**：
+- https://www.bilibili.com/video/av115214796195479
 ## 功能
 
 - **热键支持**：使用热键（例如 `Ctrl+M`）切换 OBS 场景项目的可见性。
